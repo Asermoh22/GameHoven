@@ -1,0 +1,36 @@
+body {
+    background-color: #355e3b; /* Forest green background */
+    color: #ffffff;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+i{
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.header {
+    display: flex;
+    align-items: center; 
+}
+
+.header i {
+    position: relative;
+    top : 5px;
+    margin-left : 10px; 
+    font-size: 1.5rem; /* Adjust size as needed */
+}
+
+.header h1 {
+    position: relative;
+    left :10px ;
+    top : 5px;
+    margin: 0; /* Remove default margin for h1 */
+    font-size: 2rem; /* Adjust size as needed */
+}
+
+

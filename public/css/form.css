@@ -1,0 +1,94 @@
+body {
+    background-color: #355e3b; /* Forest green background */
+    color: #ffffff;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+i{
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+    color: #00ced1; /* Dark turquoise for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8b4513; /* Saddle brown on hover */
+}
+
+
+
+button:hover {
+    background-color: #8b4513;
+    color: #ffffff;
+}
+
+
+.header {
+    display: flex;
+    align-items: center; /* Vertically center items */
+}
+
+.header i {
+    position: relative;
+    top : 8px;
+    margin-left : 10px; /* Space between icon and heading */
+    font-size: 1.5rem; /* Adjust size as needed */
+}
+
+.header h1 {
+    position: relative;
+    left :10px ;
+    top : 8px;
+    margin: 0; /* Remove default margin for h1 */
+    font-size: 2rem; /* Adjust size as needed */
+}
+
+.formm{
+    background-color: black;
+    
+}
+/* label{
+    position: relative;
+    left : 600px; 
+}
+#exampleInputEmail1{
+    position: relative;
+    left : 600px;
+}
+
+#exampleInputPassword1{
+    margin-top : 3px;
+    position: relative;
+    left : 600px;
+} */
+.formm {
+  
+    position: relative;
+    left :500px ;
+    top :100px ;
+    padding: 20px;
+    background-color: #0d0d0d; /* Light background color for the form area */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+    width :600px ;
+}
+
+.content {
+    padding: 20px;
+    background-color: #000000; /* White background for the content area */
+    border-radius: 8px; /* Optional: rounded corners */
+}
+
+
+
